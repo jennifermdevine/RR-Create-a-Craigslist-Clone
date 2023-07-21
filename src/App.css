@@ -39,7 +39,7 @@ img {
 }
 
 .searchbar {
-  font-size: 5vh;
+  font-size: 25px;
   grid-area: searchbar;
   border: 1px solid black;
 }
@@ -47,4 +47,9 @@ img {
 .sideBar {
   grid-area: sidebar;
   border: 1px solid black;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row
 }
